@@ -13,6 +13,8 @@ namespace ComputorClass
             var cpu = new Processsor("Intel core i9");
             var ram = new Ram("HyperX");
 
+            var ram = new Ram("samsung");
+            var keyboard = new Input("RK75");
 
             InputObj(mouse);
             InputObj(power);
