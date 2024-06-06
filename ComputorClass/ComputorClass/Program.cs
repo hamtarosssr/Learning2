@@ -10,6 +10,9 @@ namespace ComputorClass
             var mouse = new Input("logitech");
             var power = new Support("pw1000");
             var ssd = new Hardisk("sata m.2");
+            var cpu = new Processsor("Intel core i9");
+            var ram = new Ram("HyperX");
+
 
             InputObj(mouse);
             InputObj(power);
