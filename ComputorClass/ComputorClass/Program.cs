@@ -11,14 +11,16 @@ namespace ComputorClass
             var power = new Support("pw1000");
             var ssd = new Hardisk("sata m.2");
             var cpu = new Processsor("Intel core i9");
-            var ram = new Ram("HyperX");
-
+            var ram1 = new Ram("HyperX");
             var ram = new Ram("samsung");
             var keyboard = new Input("RK75");
-
+            var monitor = new Output("asus monitor");
+            
             InputObj(mouse);
             InputObj(power);
             InputObj(ssd);
+            InputObj(cpu);
+            InputObj(ram);
 
 
 
