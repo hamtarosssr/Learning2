@@ -10,6 +10,8 @@ namespace ComputorClass
             var mouse = new Input("logitech");
             var power = new Support("pw1000");
             var ssd = new Hardisk("sata m.2");
+            var ram = new Ram("samsung");
+            var keyboard = new Input("RK75");
 
             InputObj(mouse);
             InputObj(power);
