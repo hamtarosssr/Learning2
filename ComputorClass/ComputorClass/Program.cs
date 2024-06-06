@@ -16,6 +16,9 @@ namespace ComputorClass
             var keyboard = new Input("RK75");
             var monitor = new Output("asus monitor");
             
+            var Tv = new Output("Acer");
+            var LanCard = new Processsor("intel lan");
+
             InputObj(mouse);
             InputObj(power);
             InputObj(ssd);
